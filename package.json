@@ -1,0 +1,16 @@
+{
+  "name": "vite-vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "lint": "eslint -c .eslintrc --ext .js,.jsx .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
